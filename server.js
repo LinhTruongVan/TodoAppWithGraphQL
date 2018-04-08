@@ -1,9 +1,9 @@
 require('dotenv').config()
-var mongoose = require('mongoose')
-var http = require('http')
+const mongoose = require('mongoose')
+const http = require('http')
 
-var app = require('./app')
-var dbSeeder = require('./db-seeder')
+const app = require('./app')
+const dbSeeder = require('./db-seeder')
 
 const CONFIG = require('./config')
 
