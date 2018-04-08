@@ -1,0 +1,25 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinhTruongVan/TodoAppWithGraphQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LinhTruongVan/TodoAppWithGraphQL/issues"
+  },
+  "homepage": "https://github.com/LinhTruongVan/TodoAppWithGraphQL#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13"
+  }
+}
