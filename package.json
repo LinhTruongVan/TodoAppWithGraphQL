@@ -25,8 +25,11 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "express-async-errors": "^2.1.2",
+    "express-graphql": "^0.6.12",
     "express-jwt": "^5.3.1",
     "faker": "^4.1.0",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.23.1",
     "mongoose": "^5.0.13",
     "winston": "^2.4.1",
     "winston-daily-rotate-file": "^3.0.1"
