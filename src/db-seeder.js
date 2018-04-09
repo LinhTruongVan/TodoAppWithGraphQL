@@ -2,8 +2,7 @@ const faker = require('faker')
 const mongoose = require('mongoose')
 const ObjectId = mongoose.Types.ObjectId
 
-const User = require('./models/user')
-const Todo = require('./models/todo')
+const { User, Todo } = require('./models')
 
 async function seedAsync () {
   const userCount = await User.count({})
